@@ -5,9 +5,9 @@ import pandas as pd
 ENSEMBL_TO_HGNC_PATH = './HGNC_Ensembl_mapping_01_03_2018.txt'
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-# This script takes in a tab-separated file containing a column of Ensembl IDs and a string indicating the header for
-# this column, and outputs a tab-separated file identical to the input file except that it has an additional column
-# containing mapped HGNC gene symbols for each row.
+# This script takes in a tab-separated file containing at least one column of Ensembl IDs and a string indicating the
+# header for this column, and outputs a tab-separated file identical to the input file except that it has an additional
+# column containing mapped HGNC gene symbols for each row.
 # --------------------------------------------------------------------------------------------------------------------
 # Example usages:
 # 1. Assuming output path is location of input file
