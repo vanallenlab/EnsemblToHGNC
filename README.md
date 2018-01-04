@@ -8,8 +8,8 @@ column containing mapped HGNC gene symbols for each row.
 # Example usages:
 1. Assuming output path is location of input file
 
-'/path/to/file_containing_ensembl_column <ensembl_column_header>'
+`python EnsemblToHGNC.py /path/to/file_containing_ensembl_column <ensembl_column_header>`
 
 2. Specifying output path
 
-'/path/to/file_containing_ensembl_column <ensembl_column_header> --output_path /path/to/output/location'
+`python EnsemblToHGNC.py /path/to/file_containing_ensembl_column <ensembl_column_header> --output_path /path/to/output/location`
