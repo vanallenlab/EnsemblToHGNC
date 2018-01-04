@@ -4,6 +4,8 @@ This script takes in a tab-separated file containing at least one column of Ense
 header for this column, and outputs a tab-separated file identical to the input file except that it has an additional
 column containing mapped HGNC gene symbols for each row.
 
+The Ensembl-HGNC symbol mapping is derived from downloads at this site: https://www.genenames.org/cgi-bin/download
+
 --------------------------------------------------------------------------------------------------------------------
 # Example usages:
 1. Assuming output path is location of input file
