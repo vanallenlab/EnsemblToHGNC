@@ -2,7 +2,8 @@ import argparse
 import os
 import pandas as pd
 
-ENSEMBL_TO_HGNC_PATH = './HGNC_Ensembl_mapping_01_03_2018.txt'
+package_path = os.path.dirname(os.path.realpath(__file__))
+ENSEMBL_TO_HGNC_PATH = os.path.join(package_path, 'HGNC_Ensembl_mapping_01_03_2018.txt')
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # This script takes in a tab-separated file containing at least one column of Ensembl IDs and a string indicating the
