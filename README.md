@@ -4,7 +4,8 @@ This script takes in a tab-separated file containing at least one column of Ense
 and a string indicating the header for this column, and outputs a tab-separated file identical to the input file except
 that it has an additional column containing mapped HGNC gene symbols for each row.
 
-The Ensembl-HGNC symbol mapping is derived from downloads at this site: https://www.genenames.org/cgi-bin/download. Data is based on Ensembl release 92, from April 2018.
+The ENSG-HGNC symbol mapping is derived from downloads at this site: https://www.genenames.org/cgi-bin/download. Data is based on Ensembl release 92, from April 2018.
+
 The ENSG-ENST symbol mapping is derived from Ensembl's biomart: http://useast.ensembl.org/biomart/. Data is based on Ensemble release 92, from April 2018.
 
 --------------------------------------------------------------------------------------------------------------------
