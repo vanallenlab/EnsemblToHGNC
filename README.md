@@ -12,8 +12,8 @@ The ENSG-ENST symbol mapping is derived from Ensembl's biomart: http://useast.en
 # Example usages:
 1. Assuming output path is location of input file
 
-`python EnsemblToHGNC.py /path/to/file_containing_ensembl_column <ensembl_column_header>`
+`python EnsemblToHGNC.py /path/to/file_containing_ensembl_column --ensg_header/--enst_header <ensembl_column_header>`
 
 2. Specifying output path
 
-`python EnsemblToHGNC.py /path/to/file_containing_ensembl_column <ensembl_column_header> --output_path /path/to/output/location`
+`python EnsemblToHGNC.py /path/to/file_containing_ensembl_column --ensg_header/--enst_header <ensembl_column_header> --output_path /path/to/output/location`
